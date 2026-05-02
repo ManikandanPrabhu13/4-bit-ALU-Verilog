@@ -60,7 +60,7 @@ simulation using EDA Playground and EPWave.
 
 ## Simulation Waveform
 
-![ALU Waveform](waveform.png)
+![ALU Waveform](waveform.jpg)
 
 Waveform verifies correct functionality of:
 - Inputs `A` and `B`
