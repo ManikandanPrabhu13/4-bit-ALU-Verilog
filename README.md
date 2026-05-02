@@ -1,8 +1,13 @@
 # 4-bit ALU — Verilog RTL Design & Functional Verification
 
-**Author:** Manikandan Prabhu B  
-**Tool:** EDA Playground | Icarus Verilog  
-**Language:** Verilog HDL  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Language](https://img.shields.io/badge/Language-Verilog-blue)
+![Domain](https://img.shields.io/badge/Domain-VLSI%20%7C%20Digital%20Design-orange)
+
+> 4-bit Arithmetic Logic Unit implemented in Verilog HDL  
+> RTL Design + Functional Verification using EDA Playground
+
+> Madras Institute of Technology, Anna University · 2026
 
 ---
 
@@ -60,9 +65,10 @@ simulation using EDA Playground and EPWave.
 
 ## Simulation Waveform
 
-![ALU Waveform](waveform.png)
+![4-bit ALU simulation waveform](waveform.png)
 
 Waveform verifies correct functionality of:
+
 - Inputs `A` and `B`
 - `opcode`
 - `result`
@@ -85,11 +91,12 @@ The final test case confirms zero detection (`0 + 0 = 0`) with
 
 ## Repository Files
 
-| File         | Description                        |
-|--------------|------------------------------------|
-| design.sv    | 4-bit ALU RTL design               |
-| testbench.sv | Functional verification testbench  |
-| waveform.png | Simulation waveform output         |
+| File         | Description                       |
+|--------------|-----------------------------------|
+| design.sv    | 4-bit ALU RTL design              |
+| testbench.sv | Functional verification testbench |
+| waveform.png | Simulation waveform output        |
+| README.md    | Project documentation             |
 
 ---
 
@@ -103,3 +110,19 @@ The final test case confirms zero detection (`0 + 0 = 0`) with
 6. Click **Run** to simulate and view waveform  
 
 ---
+
+## Future Improvements
+
+- Extend ALU from 4-bit to 8-bit or 16-bit architecture
+- Add XOR, NAND, NOR, and shift operations
+- Implement carry flag and overflow flag outputs
+- Create parameterized ALU design for scalable bit width
+- Perform synthesis using FPGA/ASIC design tools
+
+---
+
+## Author
+
+**Manikandan Prabhu B**  
+B.E. Electronics and Communication Engineering  
+Madras Institute of Technology, Anna University  
