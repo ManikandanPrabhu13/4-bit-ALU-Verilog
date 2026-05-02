@@ -13,8 +13,7 @@
 
 ## Overview
 
-A 4-bit Arithmetic Logic Unit (ALU) implemented in Verilog HDL for RTL  
-design and functional verification practice.
+A 4-bit Arithmetic Logic Unit (ALU) implemented in Verilog HDL to strengthen fundamentals in RTL design and functional verification.
 
 The ALU supports 5 arithmetic and logic operations selected using a  
 3-bit opcode and includes a zero-flag output for zero-result detection.
